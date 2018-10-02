@@ -1,0 +1,22 @@
+body {
+    
+}
+
+h1 {
+    font-family: 'Bungee Inline';
+    font-size: 80px;
+    
+}
+
+button.button-text {
+    padding: 10px;
+}
+
+button.button-text:hover {
+    cursor: pointer;
+}
+
+#display-buttons {
+    display: flex;
+    margin-bottom: 20px;
+}
