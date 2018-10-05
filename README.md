@@ -1,6 +1,8 @@
 # GifTastic
 ### Some Inspirations
-Many popular websites these days such as reddit, youtube, 9gag are implementing "dark mode." I was curious as to why and did some research. I found out that the reason behind this is because of our EYES. Research shows that dark screens with dim/faded colors are better for human eyes because it reflects less light. Since technology is so convenient, we stare at our screens so much. I'm no science guy, but I tried finding colors that I believe are better for your eyes. 
+Many popular websites these days such as reddit, youtube, 9gag are implementing "dark theme." I was curious as to why and did some research. I found out that the reason behind this is because of our EYES. Research shows that dark screens with dim/faded colors are better for human eyes because it reflects less light. Since technology is so convenient, we stare at our screens so much. I'm no science guy, but I tried finding more faded colors that I believe are better for your eyes. 
+
+The black and white colors you find on this website are also dimmed, instead of PURE black and white. 
 ### Technologies Used
 - HTML
 - CSS

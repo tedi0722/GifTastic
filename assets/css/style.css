@@ -3,7 +3,7 @@ html {
 }
 
 body {
-   background-color: #656565;
+   background-image: linear-gradient(#333333, #656565);
    background-repeat: no-repeat; 
    height: 100%;
    background-attachment: fixed;
@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    color: #e5c454;
+    color: #e57254;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 25px;
 }
@@ -39,7 +39,7 @@ button.button-text {
     border: none;
     border-radius: 3px;
     margin: 5px;
-    background: #e57254;
+    background: #e5c454;
     color: #333333;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 20px;
@@ -48,7 +48,7 @@ button.button-text {
 }
 
 #addGif {
-    background: #e57254;
+    background: #e5c254;
     color: #333333;
     font-family: 'Montserrat Alternates', sans-serif;
     transition: all 0.5s ease 0s;
@@ -58,10 +58,13 @@ button.button-text {
     background-color: #d6d8de;
 }
 
-button.button-text:hover,
-#addGif:hover {
+button.button-text:hover {
     cursor: pointer;
     background: #d6d8de;
+}
+
+#addGif:hover {
+    background-color: #52d273;
 }
 
 button.button-text:focus {
