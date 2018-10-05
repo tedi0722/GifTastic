@@ -69,34 +69,4 @@ $(document).on("click", ".button-text", render);
 
 createBtn();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 });
