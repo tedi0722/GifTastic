@@ -65,6 +65,7 @@ button.button-text:hover {
 
 #addGif:hover {
     background-color: #52d273;
+    color: #d6d8de;
 }
 
 button.button-text:focus {
