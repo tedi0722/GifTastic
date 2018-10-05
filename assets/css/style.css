@@ -1,22 +1,80 @@
+html {
+    height: 100%;
+}
+
 body {
-    
+   background-color: #656565;
+   background-repeat: no-repeat; 
+   height: 100%;
+   background-attachment: fixed;
+}
+
+header {
+    background-color: #333333;
 }
 
 h1 {
     font-family: 'Bungee Inline';
     font-size: 80px;
-    
+    color: #468cde;
+    letter-spacing: 2px;
+    padding: 20px 20px 0 20px;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #e5c454;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+}
+
+p {
+    color: #e5c454;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
 }
 
 button.button-text {
-    padding: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    background: #e57254;
+    color: #333333;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: all 0.5s ease 0s;
 }
 
-button.button-text:hover {
+#addGif {
+    background: #e57254;
+    color: #333333;
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: all 0.5s ease 0s;
+}
+
+#user-input {
+    background-color: #d6d8de;
+}
+
+button.button-text:hover,
+#addGif:hover {
     cursor: pointer;
+    background: #d6d8de;
+}
+
+button.button-text:focus {
+    background-color: #52d273;
 }
 
 #display-buttons {
     display: flex;
-    margin-bottom: 20px;
+    margin: 20px 0;
+}
+
+#display-gifs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
